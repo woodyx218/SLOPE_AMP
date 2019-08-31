@@ -10,10 +10,10 @@ SLOPE is a relatively new convex optimization procedure for high-dimensional lin
 
 You need to install R-package ['SLOPE'](https://cran.r-project.org/web/packages/SLOPE/index.html) to run the following codes.
 
-## [lambda_to_alpha.py](lambda_to_alpha.R) 
+## [lambda_to_alpha.R](lambda_to_alpha.R) 
 
 Compute state evolution and calibration between **\alpha** and **\lambda** of SLOPE-AMP.
 
-## [AMPfaster](AMPfaster.R)
+## [AMPfaster.R](AMPfaster.R)
 
 This is an example implementation of SLOPE-AMP converging much faster than other commonly known iterative algorithms including ISTA and FISTA.
