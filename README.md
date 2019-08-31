@@ -12,7 +12,7 @@ You need to install R-package ['SLOPE'](https://cran.r-project.org/web/packages/
 
 ## [lambda_to_alpha.py](lambda_to_alpha.R) 
 
-Compute state evolution and calibration between \alpha and **\lambda** of SLOPE-AMP.
+Compute state evolution and calibration between **\alpha** and **\lambda** of SLOPE-AMP.
 
 ## [AMPfaster](AMPfaster.R)
 
