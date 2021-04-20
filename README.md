@@ -17,3 +17,11 @@ Compute state evolution and calibration between **\alpha** and **\lambda** of SL
 ## [AMPfaster.R](AMPfaster.R)
 
 This is an example implementation of SLOPE-AMP converging much faster than other commonly known iterative algorithms including ISTA and FISTA.
+
+## [tradeoff_functions.R](tradeoff_functions.R) 
+
+Compute all quantities used in SLOPE TPP-FDP trade-off. E.g. **q^\star, q_\star, zero-threshold, \epsilon^\star, u_{DT}^\star, t^\star, t_\star**......
+
+## [upper_lower_bounds_plots.R](upper_lower_bounds_plots.R) 
+
+Plots of **q^\star** and **q_\star**, the upper and lower bounds of the true SLOPE TPP-FDP trade-off **q**.
