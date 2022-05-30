@@ -2,6 +2,9 @@
 This project contains scripts to reproduce experiments from the paper 
 [Algorithmic Analysis and Statistical Estimation of SLOPE via Approximate Message Passing](https://arxiv.org/abs/1907.07502)
 by Zhiqi Bu, Jason Klusowski, Cynthia Rush, Weijie Su.
+and the paper
+[Characterizing the SLOPE Trade-off: A Variational Perspective and the Donoho-Tanner Limit](https://arxiv.org/abs/2110.05679)
+by Zhiqi Bu, Jason Klusowski, Cynthia Rush, Weijie Su.
 
 # The Problem of Interest
 SLOPE is a relatively new convex optimization procedure for high-dimensional linear regression, which includes LASSO as a special case. SLOPE penalizes the solution via the sorted L1 penalty: the larger the rank of the fitted coefficient, the larger the penalty. In this paper, we develop an iterative algorithm, known as approximate message passing (AMP), for SLOPE problem which provably converges to the true minimizer and numerical simulations show that the convergence is surprisingly fast. In addition, AMP allows us to conduct inference on SLOPE minimizer in the asymptotic manner.
@@ -25,3 +28,25 @@ Compute all quantities used in SLOPE TPP-FDP trade-off. E.g. **q^\star, q_\star,
 ## [upper_lower_bounds_plots.R](upper_lower_bounds_plots.R) 
 
 Plots of **q^\star** and **q_\star**, the upper and lower bounds of the true SLOPE TPP-FDP trade-off **q**.
+
+
+## Citation
+```
+@article{bu2020algorithmic,
+  title={Algorithmic analysis and statistical estimation of SLOPE via approximate message passing},
+  author={Bu, Zhiqi and Klusowski, Jason M and Rush, Cynthia and Su, Weijie J},
+  journal={IEEE Transactions on Information Theory},
+  volume={67},
+  number={1},
+  pages={506--537},
+  year={2020},
+  publisher={IEEE}
+}
+
+@article{bu2021characterizing,
+  title={Characterizing the SLOPE Trade-off: A Variational Perspective and the Donoho-Tanner Limit},
+  author={Bu, Zhiqi and Klusowski, Jason and Rush, Cynthia and Su, Weijie J},
+  journal={arXiv preprint arXiv:2105.13302},
+  year={2021}
+}
+```
