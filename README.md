@@ -11,7 +11,7 @@ SLOPE is a relatively new convex optimization procedure for high-dimensional lin
 
 # Description of Files
 
-You need to install R-package ['SLOPE'](https://cran.r-project.org/web/packages/SLOPE/index.html) to run the following codes.
+You need to install R-package ['SLOPE'](https://cran.r-project.org/src/contrib/Archive/SLOPE/)(v0.1.3) and use Rtools35 to run the following codes.
 
 ## [lambda_to_alpha.R](lambda_to_alpha.R) 
 
